@@ -15,6 +15,14 @@ public class User {
         this.age = age;
     }
 
+    public String breath(String breath) {
+        return "CO2";
+    }
+
+    public void death() {
+        // User dead!
+    }
+
     @Override
     public String toString() {
         return "User{name='%s', gender='%s', age=%d}".formatted(name, gender, age);
