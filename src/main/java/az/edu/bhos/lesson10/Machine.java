@@ -1,4 +1,8 @@
-package az.edu.bhos.lesson10;
+package lesson10;
 
-public class Machine {
+public abstract class Machine implements Swimmable {
+
+    public abstract void start();
+
+//    public abstract void stop();
 }
