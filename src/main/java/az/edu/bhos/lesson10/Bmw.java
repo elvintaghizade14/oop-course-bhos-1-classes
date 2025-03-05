@@ -1,4 +1,4 @@
-package lesson10;
+package az.edu.bhos.lesson10;
 
 public class Bmw extends Machine {
 
@@ -11,5 +11,8 @@ public class Bmw extends Machine {
         System.out.println("Avara qaqaw A.U.E.");
     }
 
+    @Override
+    public void swim() {
 
+    }
 }

@@ -1,4 +1,4 @@
-package lesson10;
+package az.edu.bhos.lesson10;
 
 public class Toyota extends Machine implements Swimmable {
 
